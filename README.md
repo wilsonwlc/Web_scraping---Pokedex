@@ -1,13 +1,14 @@
-## Overview
+# Pokémon Data Scraper (Generation 1)
+### Overview
 - In this demonstration project, Python and the Selenium package were used to collect data on Generation 1 Pokémon from the [National Pokédex](https://pokemondb.net/pokedex/national). The Python script collected various details about each Pokémon, including their name, national number, type, species, height, weight, base stats, minimum stats, maximum stats, and entry. Then, the data was saved in CSV. 
 
-## Requirements
+### Requirements
 - Required Python package
 	- selenium
 	- pandas
 - A web driver compatible with Selenium e.g. `geckodriver` for FireFox
 
-## Data Field
+### Data Field
 #### Characteristics of Pokémon
 The following fields are saved in `pokemon_demo.csv`
 - `name`: The name of the Pokémon
